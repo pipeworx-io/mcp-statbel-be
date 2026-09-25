@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/statbel-be",
   "title": "Statbel Be",
   "description": "Statbel — Statistics Belgium (be.STAT / bestat) open data MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/statbel-be",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-statbel-be",

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-statbel-be",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Statbel — Statistics Belgium (be.STAT / bestat) open data MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9c82587cbcb5d90a38fa7aacfcac2e799d08201ea9c39fec1550c12034c965bd",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-1c552ac08591b94a3bd139f36455b63e1a054ef4f9577657aacbdfe3a5fdd8b1",
+    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
   }
 }

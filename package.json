@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-statbel-be",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Statbel — Statistics Belgium (be.STAT / bestat) open data MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-statbel-be": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "statbel-be"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-statbel-be.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/statbel-be",
   "pipeworx": {
-    "sourceHash": "v1-1c552ac08591b94a3bd139f36455b63e1a054ef4f9577657aacbdfe3a5fdd8b1",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "statbel-be",
+    "gatewaySlug": "statbel-be",
+    "sourceHash": "v1-afee9c25f2e1de43e7092caa1d6a3cfbee2cf41f02b7a2155dc5bbbe7bd1d441",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
